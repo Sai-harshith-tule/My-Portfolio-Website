@@ -1,0 +1,107 @@
+.titles{
+    background-color: black;
+}
+.btn{
+    color: aliceblue;
+    height: 64px;
+    align-items: end;
+    margin-left: 40px;
+    font-size: 1rem;
+}
+ul{
+    list-style: none;
+}
+.navicons{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.navtext{
+    height: none;
+}
+.home_heading{
+
+    height: 250px;
+    width: 100%;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 5px;
+}
+.home_para{
+    font-family: inherit;
+    display: flex;
+    width: 75%;
+    padding-left: 400px;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: x-large;
+}
+.home_body{
+    background-color: #D2D4D4;
+    padding-bottom: 200px;
+
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #f6b213;
+    border-color: #000000;
+    
+}
+
+.styled:hover {
+    background-color: #cc920b;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.bodybtn{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+
+}
+
+/* about css */
+.about_body{
+    background-color: #D2D4D4;
+    padding-bottom: 200px;
+
+}
+.about_heading{
+
+    height: 25px;
+    width: 100%;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    justify-content: left;
+    padding-left: 80px;
+    
+    padding-bottom: 5px;
+}
+.about_para{
+    font-family: inherit;
+    display: flex;
+    width: 75%;
+    padding-left: 400px;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: left;
+    padding-bottom: 50px;
+    font-size: x-large;
+}
